@@ -26,6 +26,16 @@ export const Route = createRootRoute({
 		],
 	}),
 
+	notFoundComponent: () => (
+		<div className="flex flex-col items-center justify-center min-h-screen">
+			<h1 className="text-4xl font-bold mb-4">404 - Oldal nem található</h1>
+			<p className="text-gray-600 mb-6">A keresett oldal nem létezik.</p>
+			<a href="/" className="px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90">
+				Vissza a főoldalra
+			</a>
+		</div>
+	),
+
 	shellComponent: RootDocument,
 });
 

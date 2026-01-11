@@ -16,6 +16,7 @@
 	--light: #c0ebf1;
 	--primary: #00c2cb;
 	--secondary: #aedfdc;
+	--swiper-theme-color: #00c2cb;
 }
 
 @theme inline {
