@@ -1,0 +1,42 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "@fontsource/plus-jakarta-sans/400.css";
+@import "@fontsource/plus-jakarta-sans/500.css";
+@import "@fontsource/plus-jakarta-sans/600.css";
+@import "@fontsource/plus-jakarta-sans/700.css";
+@import "@fontsource/plus-jakarta-sans/400-italic.css";
+@import "@fontsource/plus-jakarta-sans/500-italic.css";
+@import "@fontsource/plus-jakarta-sans/600-italic.css";
+@import "@fontsource/plus-jakarta-sans/700-italic.css";
+@import "tailwindcss";
+@import "./styles/animated-dots.css";
+
+:root {
+	--background: #f8f9fa;
+	--dark: #0d172e;
+	--light: #c0ebf1;
+	--primary: #00c2cb;
+	--secondary: #aedfdc;
+}
+
+@theme inline {
+	--color-dark: var(--dark);
+	--color-bg: var(--background);
+	--color-light: var(--light);
+	--color-primary: var(--primary);
+	--color-secondary: var(--secondary);
+
+	--font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+/* @media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0d172e;
+		--foreground: #f8f9fa;
+	}
+} */
+
+body {
+	background: var(--background);
+	color: var(--dark);
+	font-family: var(--font-sans), sans-serif;
+}
