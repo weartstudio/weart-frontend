@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useTranslation } from "react-i18next";
 import Menu from "@/components/common/Menu";
 import Hero from "@/components/home/Hero";
 import SuccessStories from "@/components/home/SuccessStories";
@@ -16,6 +17,7 @@ export const Route = createFileRoute("/")({
 
 function App() {
 	const { testimonials } = Route.useLoaderData();
+	const { t } = useTranslation();
 
 	return (
 		<>
@@ -29,8 +31,8 @@ function App() {
 			</header>
 			<section className="container mx-auto py-20">
 				<div className="container mx-auto pb-10">
-					<Title subtitle="vélemények" title="Akik már megbíztak bennünk" className="text-dark">
-						Quisque sit amet laoreet ante. Nulla porttitor nisl a vestibulum mollis. Sed malesuada, lacus vitae lobortis convallis.
+					<Title subtitle={t("testimonials.subtitle")} title={t("testimonials.title")} className="text-dark">
+						{t("testimonials.description")}
 					</Title>
 				</div>
 				<CarouselTestimonial testimonials={testimonials} />
