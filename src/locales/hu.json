@@ -6,21 +6,23 @@
 		"blog": "Blog",
 		"contact": "Beszélgessünk"
 	},
-	"hero": {
-		"subtitle": "weboldal fejlesztés",
-		"title": "Legyen egy weboldalad, ami profi megjelenést ad, bizalmat épít, és eredményeket szállít.",
-		"description": "10+ év rutinnal építünk egyedi, gyors weboldalakat. Rendszereink nemcsak látványosak, de vevőket szereznek és veled együtt fejlődnek.",
-		"ctaButton": "Egyeztessünk időpontot",
-		"reviews": "90+ elégedett ügyfél"
-	},
-	"testimonials": {
-		"subtitle": "vélemények",
-		"title": "Akik már megbíztak bennünk",
-		"description": "Quisque sit amet laoreet ante. Nulla porttitor nisl a vestibulum mollis. Sed malesuada, lacus vitae lobortis convallis."
-	},
 	"notFound": {
 		"title": "404 - Oldal nem található",
 		"description": "A keresett oldal nem létezik.",
 		"button": "Vissza a főoldalra"
+	},
+	"home": {
+		"hero": {
+			"subtitle": "weboldal fejlesztés",
+			"title": "Legyen egy weboldalad, ami profi megjelenést ad, bizalmat épít, és eredményeket szállít.",
+			"description": "10+ év rutinnal építünk egyedi, gyors weboldalakat. Rendszereink nemcsak látványosak, de vevőket szereznek és veled együtt fejlődnek.",
+			"ctaButton": "Egyeztessünk időpontot",
+			"reviews": "90+ elégedett ügyfél"
+		},
+		"testimonials": {
+			"subtitle": "vélemények",
+			"title": "Akik már megbíztak bennünk",
+			"description": "Quisque sit amet laoreet ante. Nulla porttitor nisl a vestibulum mollis. Sed malesuada, lacus vitae lobortis convallis."
+		}
 	}
 }

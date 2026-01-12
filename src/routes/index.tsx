@@ -31,8 +31,8 @@ function App() {
 			</header>
 			<section className="container mx-auto py-20">
 				<div className="container mx-auto pb-10">
-					<Title subtitle={t("testimonials.subtitle")} title={t("testimonials.title")} className="text-dark">
-						{t("testimonials.description")}
+					<Title subtitle={t("home.testimonials.subtitle")} title={t("home.testimonials.title")} className="text-dark">
+						{t("home.testimonials.description")}
 					</Title>
 				</div>
 				<CarouselTestimonial testimonials={testimonials} />
